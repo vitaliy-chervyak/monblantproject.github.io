@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+  <link rel="stylesheet" href="css/fonts.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<script src="js/jQuery.js"></script>
+  <script src="js/control.js"></script>
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-datetimepicker/2.5.20/jquery.datetimepicker.css"/>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-datetimepicker/2.5.20/jquery.datetimepicker.full.js"> </script>
+  <script>
+      $(document).ready(function(){
+            $('#календарь').datetimepicker({
+                timepicker: false
+            });
+            $('#календарь1').datetimepicker({
+                timepicker: false
+            });
+        })
+  </script>
+</head>
+
+
+  
+	<body>
+
+  <!-- header -->
+
+    <header>
+      <div class="container flex-main flex-row flex-wrap">
+        <div class="header-logo">
+          <img src="img/header-logo.png" alt="Логотип">
+        </div>
+        <div class="header-container">
+          <div class="header-row-1 flex-main flex-row flex-wrap">
+            <div class="header-name">monblanproject</div>
+            <div class="header-data">
+              Start <span>o</span>n 17-02-2016
+            </div>
+          </div>
+          <div class="header-row-2 flex-main flex-row flex-wrap">
+            <div class="post">
+              <span>870</span> posts
+            </div>
+            <div class="followers">
+              <span>11.787</span> followers 
+            </div>
+            <div class="following">
+              <span>112</span> following
+            </div>
+          </div>
+          <div class="header-row-3 flex-main flex-row flex-wrap">
+                <label for="календарь">Date</label>
+              <input type="text" id="календарь" placeholder="From"></input>
+               <input type="text" id="календарь1" placeholder="to"></input>
+          </div>
+        </div> 
+      </div>
+    </header>
+
+  <!-- section -->
+
+    <section>
+      <div class="container flex-main flex-wrap flex-row">
+        <div class="box">
+          <div class="box-img">
+            <img src="img/box-1-min.png" alt="картинка-1">
+            </div>
+            <div class="box-content">
+            <div class="row-1 flex-main flex-row">
+              <div class="today">Today</div>
+              <div class="heart flex-main flex-row">
+                <div class="heart-icon">
+                  <img src="img/heart-icon.png" alt="иконка сердце">
+                </div>
+                <div class="heart-number">
+                  128
+                </div>
+              </div>
+              <div class="message flex-main flex-row">
+                <div class="message-icon">
+                  <img src="img/message-icon.png" alt="иконка сообщения">
+                </div>
+                <div class="message-number">
+                  31
+                </div>
+              </div>
+            </div>
+            <div class="row-2 flex-main flex-row">
+              <div class="number">
+                9-08-2016
+              </div>
+              <div class="heart flex-main flex-row">
+                <div class="heart-icon">
+                  <img src="img/heart-icon.png" alt="иконка сердце">
+                </div>
+                <div class="heart-number">
+                  67
+                </div>
+              </div>
+              <div class="message flex-main flex-row">
+                <div class="message-icon">
+                  <img src="img/message-icon.png" alt="иконка сообщения">
+                </div>
+                <div class="message-number">
+                  22
+                </div>
+              </div>
+            </div>
+            <div class="row-3">
+              Image <span>u</span>pload:11-04-2016
+            </div>
+          </div>  
+        </div>
+        <div class="box">
+          <div class="box-img">
+            <img src="img/box-2-min.png" alt="картинка-2">
+            </div>
+            <div class="box-content" id="box-content-2">
+            <div class="row-1 flex-main flex-row">
+              <div class="today" id="today-2">Today</div>
+              <div class="heart flex-main flex-row">
+                <div class="heart-icon">
+                  <img src="img/heart-icon.png" alt="иконка сердце">
+                </div>
+                <div class="heart-number" id="heart-number-2">
+                  12,800
+                </div>
+              </div>
+              <div class="message flex-main flex-row">
+                <div class="message-icon">
+                  <img src="img/message-icon.png" alt="иконка сообщения">
+                </div>
+                <div class="message-number">
+                  3,100
+                </div>
+              </div>
+            </div>
+            <div class="row-2 flex-main flex-row">
+              <div class="number">
+                9-08-2016
+              </div>
+              <div class="heart flex-main flex-row" id="heart-2">
+                <div class="heart-icon">
+                  <img src="img/heart-icon.png" alt="иконка сердце">
+                </div>
+                <div class="heart-number">
+                  67
+                </div>
+              </div>
+              <div class="message flex-main flex-row">
+                <div class="message-icon">
+                  <img src="img/message-icon.png" alt="иконка сообщения">
+                </div>
+                <div class="message-number" id="message-number-2">
+                  22
+                </div>
+              </div>
+            </div>
+            <div class="row-3">
+              Image <span>u</span>pload:11-04-2016
+            </div>
+          </div>  
+        </div>
+        <div class="box">
+          <div class="box-img">
+            <img src="img/box-3-min.png" alt="картинка-3">
+            </div>
+            <div class="box-content">
+            <div class="row-1 flex-main flex-row">
+              <div class="today">Today</div>
+              <div class="heart flex-main flex-row">
+                <div class="heart-icon">
+                  <img src="img/heart-icon.png" alt="иконка сердце">
+                </div>
+                <div class="heart-number">
+                  128
+                </div>
+              </div>
+              <div class="message flex-main flex-row">
+                <div class="message-icon">
+                  <img src="img/message-icon.png" alt="иконка сообщения">
+                </div>
+                <div class="message-number">
+                  31
+                </div>
+              </div>
+            </div>
+            <div class="row-2 flex-main flex-row">
+              <div class="number">
+                9-08-2016
+              </div>
+              <div class="heart flex-main flex-row">
+                <div class="heart-icon">
+                  <img src="img/triangle-icon.png" alt="иконка триугольника">
+                </div>
+                <div class="heart-number">
+                  67
+                </div>
+              </div>
+              <div class="message flex-main flex-row">
+                <div class="message-icon">
+                  <img src="img/message-icon.png" alt="иконка сообщения">
+                </div>
+                <div class="message-number">
+                  22
+                </div>
+              </div>
+            </div>
+            <div class="row-3">
+              Image <span>u</span>pload:11-04-2016
+            </div>
+          </div>  
+        </div>
+        <div class="box">
+          <div class="box-img">
+            <img src="img/box-4-min.png" alt="картинка-4">
+            </div>
+            <div class="box-content">
+            <div class="row-1 flex-main flex-row">
+              <div class="today">Today</div>
+              <div class="heart flex-main flex-row">
+                <div class="heart-icon">
+                  <img src="img/heart-icon.png" alt="иконка сердце">
+                </div>
+                <div class="heart-number">
+                  128
+                </div>
+              </div>
+              <div class="message flex-main flex-row">
+                <div class="message-icon">
+                  <img src="img/message-icon.png" alt="иконка сообщения">
+                </div>
+                <div class="message-number">
+                  31
+                </div>
+              </div>
+            </div>
+            <div class="row-2 flex-main flex-row row-bottom">
+              <div class="number">
+                9-08-2016
+              </div>
+              <div class="heart flex-main flex-row">
+                <div class="heart-icon">
+                  <img src="img/heart-icon.png" alt="иконка сердце">
+                </div>
+                <div class="heart-number">
+                  67
+                </div>
+              </div>
+              <div class="message flex-main flex-row">
+                <div class="message-icon">
+                  <img src="img/message-icon.png" alt="иконка сообщения">
+                </div>
+                <div class="message-number">
+                  22
+                </div>
+              </div>
+            </div>
+            <div class="row-3">
+              Image <span>u</span>pload:11-04-2016
+            </div>
+          </div>  
+        </div>
+        <div class="box">
+          <div class="box-img">
+            <img src="img/box-5-min.png" alt="картинка-5">
+            </div>
+            <div class="box-content">
+            <div class="row-1 flex-main flex-row">
+              <div class="today">Today</div>
+              <div class="heart flex-main flex-row">
+                <div class="heart-icon">
+                  <img src="img/triangle-icon.png" alt="иконка треугольника">
+                </div>
+                <div class="heart-number">
+                  128
+                </div>
+              </div>
+              <div class="message flex-main flex-row">
+                <div class="message-icon">
+                  <img src="img/message-icon.png" alt="иконка сообщения">
+                </div>
+                <div class="message-number">
+                  31
+                </div>
+              </div>
+            </div>
+            <div class="row-2 flex-main flex-row row-bottom">
+              <div class="number">
+                9-08-2016
+              </div>
+              <div class="heart flex-main flex-row">
+                <div class="heart-icon">
+                  <img src="img/triangle-icon.png" alt="иконка треугольника">
+                </div>
+                <div class="heart-number">
+                  67
+                </div>
+              </div>
+              <div class="message flex-main flex-row">
+                <div class="message-icon">
+                  <img src="img/message-icon.png" alt="иконка сообщения">
+                </div>
+                <div class="message-number">
+                  22
+                </div>
+              </div>
+            </div>
+            <div class="row-3">
+              Image <span>u</span>pload:11-04-2016
+            </div>
+          </div>  
+        </div>
+        <div class="box">
+          <div class="box-img">
+            <img src="img/box-6-min.png" alt="картинка-6">
+            </div>
+            <div class="box-content">
+            <div class="row-1 flex-main flex-row">
+              <div class="today">Today</div>
+              <div class="heart flex-main flex-row">
+                <div class="heart-icon">
+                  <img src="img/heart-icon.png" alt="иконка сердце">
+                </div>
+                <div class="heart-number">
+                  128
+                </div>
+              </div>
+              <div class="message flex-main flex-row">
+                <div class="message-icon">
+                  <img src="img/message-icon.png" alt="иконка сообщения">
+                </div>
+                <div class="message-number">
+                  31
+                </div>
+              </div>
+            </div>
+            <div class="row-2 flex-main flex-row row-bottom">
+              <div class="number">
+                9-08-2016
+              </div>
+              <div class="heart flex-main flex-row">
+                <div class="heart-icon">
+                  <img src="img/triangle-icon.png" alt="иконка треугольника">
+                </div>
+                <div class="heart-number">
+                  67
+                </div>
+              </div>
+              <div class="message flex-main flex-row">
+                <div class="message-icon">
+                  <img src="img/message-icon.png" alt="иконка сообщения">
+                </div>
+                <div class="message-number">
+                  22
+                </div>
+              </div>
+            </div>
+            <div class="row-3">
+              Image <span>u</span>pload:11-04-2016
+            </div>
+          </div>  
+        </div>
+        <div class="box">
+          <div class="box-img">
+            <img src="img/box-7-min.png" alt="картинка-7">
+            </div>
+            <div class="box-content">
+            <div class="row-1 flex-main flex-row">
+              <div class="today">Today</div>
+              <div class="heart flex-main flex-row">
+                <div class="heart-icon">
+                  <img src="img/heart-icon.png" alt="иконка сердце">
+                </div>
+                <div class="heart-number">
+                  128
+                </div>
+              </div>
+              <div class="message flex-main flex-row">
+                <div class="message-icon">
+                  <img src="img/message-icon.png" alt="иконка сообщения">
+                </div>
+                <div class="message-number">
+                  31
+                </div>
+              </div>
+            </div>
+            <div class="row-2 flex-main flex-row row-bottom">
+              <div class="number">
+                9-08-2016
+              </div>
+              <div class="heart flex-main flex-row">
+                <div class="heart-icon">
+                  <img src="img/heart-icon.png" alt="иконка сердце">
+                </div>
+                <div class="heart-number">
+                  67
+                </div>
+              </div>
+              <div class="message flex-main flex-row">
+                <div class="message-icon">
+                  <img src="img/message-icon.png" alt="иконка сообщения">
+                </div>
+                <div class="message-number">
+                  22
+                </div>
+              </div>
+            </div>
+            <div class="row-3">
+              Image <span>u</span>pload:11-04-2016
+            </div>
+          </div>  
+        </div>
+        <div class="box">
+          <div class="box-img">
+            <img src="img/box-8-min.png" alt="картинка-8">
+            </div>
+            <div class="box-content">
+            <div class="row-1 flex-main flex-row">
+              <div class="today" id="today-8">Today</div>
+              <div class="heart flex-main flex-row">
+                <div class="heart-icon">
+                  <img src="img/heart-icon.png" alt="иконка сердце">
+                </div>
+                <div class="heart-number">
+                  128
+                </div>
+              </div>
+              <div class="message flex-main flex-row">
+                <div class="message-icon">
+                  <img src="img/message-icon.png" alt="иконка сообщения">
+                </div>
+                <div class="message-number">
+                  31
+                </div>
+              </div>
+            </div>
+            <div class="row-2 flex-main flex-row row-bottom">
+              <div class="number" id="number-8">
+                9-08-2016
+              </div>
+              <div class="heart flex-main flex-row">
+                <div class="heart-icon">
+                  <img src="img/heart-icon.png" alt="иконка сердце">
+                </div>
+                <div class="heart-number">
+                  67
+                </div>
+              </div>
+              <div class="message flex-main flex-row">
+                <div class="message-icon">
+                  <img src="img/message-icon.png" alt="иконка сообщения">
+                </div>
+                <div class="message-number">
+                  22
+                </div>
+              </div>
+            </div>
+            <div class="row-3">
+              Image <span>u</span>pload:11-04-2016
+            </div>
+          </div>  
+        </div>
+        <div class="box">
+          <div class="box-img">
+            <img src="img/box-9-min.png" alt="картинка-9">
+            </div>
+            <div class="box-content">
+            <div class="row-1 flex-main flex-row">
+              <div class="today">Today</div>
+              <div class="heart flex-main flex-row">
+                <div class="heart-icon">
+                  <img src="img/heart-icon.png" alt="иконка сердце">
+                </div>
+                <div class="heart-number">
+                  128
+                </div>
+              </div>
+              <div class="message flex-main flex-row">
+                <div class="message-icon">
+                  <img src="img/message-icon.png" alt="иконка сообщения">
+                </div>
+                <div class="message-number">
+                  31
+                </div>
+              </div>
+            </div>
+            <div class="row-2 flex-main flex-row row-bottom">
+              <div class="number">
+                9-08-2016
+              </div>
+              <div class="heart flex-main flex-row">
+                <div class="heart-icon">
+                  <img src="img/heart-icon.png" alt="иконка сердце">
+                </div>
+                <div class="heart-number">
+                  67
+                </div>
+              </div>
+              <div class="message flex-main flex-row">
+                <div class="message-icon">
+                  <img src="img/message-icon.png" alt="иконка сообщения">
+                </div>
+                <div class="message-number">
+                  22
+                </div>
+              </div>
+            </div>
+            <div class="row-3">
+              Image <span>u</span>pload:11-04-2016
+            </div>
+          </div>  
+        </div>
+      </div>
+    </section>
+    <div class="container flex-main flex-jcontent-center">
+      <button>Load more</button>
+    </div>
+
+
+
+
+
+
+
+<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+
+</body>
+</html>

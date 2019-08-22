@@ -1,0 +1,54 @@
+@font-face {
+font-family: "HelveticaNeue";
+src: url("../fonts/HelveticaNeue/HelveticaNeue.eot");
+src: url("../fonts/HelveticaNeue/HelveticaNeue.eot?#iefix") format("eot"),
+url("../fonts/HelveticaNeue/HelveticaNeue.woff") format("woff"),
+url("../fonts/HelveticaNeue/HelveticaNeue.woff") format("woff2"),
+url("../fonts/HelveticaNeue/HelveticaNeue.ttf") format("truetype");
+font-weight: normal;
+font-style: normal;
+}
+
+@font-face {
+font-family: "ProximaNova-Bold";
+src: url("../fonts/ProximaNova-Bold/ProximaNova-Bold.eot");
+src: url("../fonts/ProximaNova-Bold/ProximaNova-Bold.eot?#iefix") format("eot"),
+url("../fonts/ProximaNova-Bold/ProximaNova-Bold.woff") format("woff"),
+url("../fonts/ProximaNova-Bold/ProximaNova-Bold.woff") format("woff2"),
+url("../fonts/ProximaNova-Bold/ProximaNova-Bold.ttf") format("truetype");
+font-weight: normal;
+font-style: normal;
+}
+
+@font-face {
+font-family: "ProximaNova-Regular";
+src: url("../fonts/ProximaNova-Regular/ProximaNova-Regular.eot");
+src: url("../fonts/ProximaNova-Regular/ProximaNova-Regular.eot?#iefix") format("eot"),
+url("../fonts/ProximaNova-Regular/ProximaNova-Regular.woff") format("woff"),
+url("../fonts/ProximaNova-Regular/ProximaNova-Regular.woff") format("woff2"),
+url("../fonts/ProximaNova-Regular/ProximaNova-Regular.ttf") format("truetype");
+font-weight: normal;
+font-style: normal;
+}
+
+@font-face {
+font-family: "ProximaNova-Semibold";
+src: url("../fonts/ProximaNova-Semibold/ProximaNova-Semibold.eot");
+src: url("../fonts/ProximaNova-Semibold/ProximaNova-Semibold.eot?#iefix") format("eot"),
+url("../fonts/ProximaNova-Semibold/ProximaNova-Semibold.woff") format("woff"),
+url("../fonts/ProximaNova-Semibold/ProximaNova-Semibold.woff") format("woff2"),
+url("../fonts/ProximaNova-Semibold/ProximaNova-Semibold.ttf") format("truetype");
+font-weight: normal;
+font-style: normal;
+}
+
+@font-face {
+font-family: "MyriadPro-Regular";
+src: url("../fonts/MyriadPro-Regular/MyriadPro-Regular.eot");
+src: url("../fonts/MyriadPro-Regular/MyriadPro-Regular.eot?#iefix") format("eot"),
+url("../fonts/MyriadPro-Regular/MyriadPro-Regular.woff") format("woff"),
+url("../fonts/MyriadPro-Regular/MyriadPro-Regular.woff") format("woff2"),
+url("../fonts/MyriadPro-Regular/MyriadPro-Regular.ttf") format("truetype");
+font-weight: normal;
+font-style: normal;
+}
